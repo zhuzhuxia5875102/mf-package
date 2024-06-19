@@ -1,13 +1,9 @@
-import {Component, OnInit, ViewEncapsulation} from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-me',
-  templateUrl: './me.component.html',
-  styleUrl: './me.component.less',
+  template: `
+    <app-children></app-children>
+  `
 })
-export class MeComponent implements OnInit{
-  ngOnInit(): void {
-
-  }
-
-}
+export class MeComponent{}

@@ -4,11 +4,7 @@ import { AfterViewInit, Component, ViewEncapsulation } from '@angular/core';
   selector: 'app-root',
   template: `
     <app-me></app-me>
-
   `,
 })
-export class AppComponent implements AfterViewInit {
-  ngAfterViewInit(): void {
-
-  }
+export class AppComponent   {
 }

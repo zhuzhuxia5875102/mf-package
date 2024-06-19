@@ -12,7 +12,7 @@ import {
 import { RouteReuseStrategy } from '@angular/router';
 import { AppReuseStrategy } from '../app-route-reuse-strategy';
 import { TestComponent } from './test/test.component';
-import { Children2Component } from './me/children2/children.component';
+import { Children2Component } from './me/children2/children2.component';
 import { WebComponentWrapper } from './mf-wrapper.component';
 
 @NgModule({

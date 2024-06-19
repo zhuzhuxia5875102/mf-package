@@ -1,4 +1,4 @@
-// 该组件重写了mf-tools的wrapper组件
+
 import {
   AfterContentInit,
   Component,
@@ -14,6 +14,7 @@ export type WebComponentWrapperOptions = LoadRemoteModuleOptions & {
   elementName: string;
 };
 
+// overied mf-tools's wrapper comp
 @Component({
   selector: 'app-wc-wrapper',
   template: '<div #vc></div>',
